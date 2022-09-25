@@ -1,8 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import github from "/public/github.png";
-import linkedin from "/public/linkedin.png";
-import mail from "/public/mail.png";
 
 export default function Footer() {
   return (
@@ -14,12 +10,10 @@ export default function Footer() {
           target="_blank"
           href="https://www.linkedin.com/in/abdulwadood-faazli/"
         >
-          <Image
+          <img
             className="footer-icon"
-            src={linkedin}
+            src="/linkedin.png"
             alt="linkedin icon"
-            width="30px"
-            height="30px"
           />
         </a>
         <a
@@ -28,12 +22,10 @@ export default function Footer() {
           rel="noopener noreferrer"
           target="_blank"
         >
-          <Image
+          <img
             className="footer-icon"
-            src={github}
+            src="/github.png"
             alt="github icon"
-            width="30px"
-            height="30px"
           />
         </a>
         <a
@@ -41,16 +33,15 @@ export default function Footer() {
           rel="noopener noreferrer"
           href="mailto: abwadood01@gmail.com, awaf2001@connect.hku.hk"
         >
-          <Image
+          <img
             className="footer-icon"
-            src={mail}
+            src="/mail.png"
             alt="email icon"
-            width="30px"
-            height="30px"
           />
         </a>
       </div>
       <div className="footer-credits">
+      <p>&copy; Abdulwadood Ashraf Faazli | 2022</p>
       <p>
         Made with{" "}
         <a rel="noopener noreferrer" href="https://nextjs.org/" target="_blank">

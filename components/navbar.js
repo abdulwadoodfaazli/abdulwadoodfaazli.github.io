@@ -1,15 +1,10 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import Image from "next/image";
-import github from "/public/github.png";
-import linkedin from "/public/linkedin.png";
-import mail from "/public/mail.png";
 
 function BasicExample() {
   return (
-    <Navbar className="navbar" variant="light" bg="danger" expand="lg" sticky="top">
+    <Navbar className="nav-bar" bg="white" expand="lg" sticky="top">
       <Container fluid>
       <Navbar.Brand className="navbar-text" href="/">Home</Navbar.Brand>
           <Nav className="me-auto">
@@ -30,12 +25,10 @@ function BasicExample() {
               target="_blank"
               href="https://www.linkedin.com/in/abdulwadood-faazli/"
             >
-              <Image
+              <img
                 className="navbar-icon"
-                src={linkedin}
+                src="/linkedin-nav.png"
                 alt="linkedin icon"
-                width="20px"
-                height="20px"
               />
             </Nav.Link>
             <Nav.Link
@@ -44,12 +37,10 @@ function BasicExample() {
               target="_blank"
               href="https://github.com/abdulwadoodfaazli"
             >
-              <Image
+              <img
                 className="navbar-icon"
-                src={github}
+                src="/github-nav.png"
                 alt="github icon"
-                width="20px"
-                height="20px"
               />
             </Nav.Link>
             <Nav.Link
@@ -57,12 +48,10 @@ function BasicExample() {
               rel="noopener noreferrer"
               href="mailto: abwadood01@gmail.com, awaf2001@connect.hku.hk"
             >
-              <Image
+              <img
                 className="navbar-icon"
-                src={mail}
+                src="/mail-nav.png"
                 alt="mail icon"
-                width="20px"
-                height="20px"
               />
             </Nav.Link>
           </Nav>

@@ -1,48 +1,76 @@
-body{
-  background-color: rgb(90, 8, 8) !important;
-  color: white !important;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+  background-color: rgb(255, 255, 255) !important;
+  color: rgb(0, 0, 0) !important;
+  font-family: 'Montserrat', sans-serif !important;
 }
 
-/* Navbar and Footer*/
-
-.navbar-text{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: white;
-}
-
-.navbar-text:hover{
+a:hover {
   text-decoration: underline;
 }
 
-.navbar-link:hover{
-  width: 25px;
-  height: 25px;
+/* Navbar, Header, and Footer*/
+
+.navbar-text {
+  font-size: large;
+  font-weight: bold;
 }
 
-.footer{
-  background-color: rgb(233, 8, 8);
+.navbar-text:hover {
+  text-decoration: underline;
+}
+
+.navbar-icon{
+  width: 20px;
+  height: 20px;
+  transition: 0.2s ease;
+}
+
+.navbar-icon:hover{
+  width: 30px;
+  height: 30px;
+}
+
+.header {
+  background-color: rgb(0, 0, 0);
   color: white;
-  height: 200px;
+  padding-block: 20vh;
+  padding-inline: 10vh;
   text-align: center;
 }
 
-.footer-logos{
-  height: 50%;
+.footer {
+  background-color: rgb(0, 0, 0);
+  padding-bottom: 5vh;
+  color: white;
+  height: 50vh;
+  text-align: center;
+}
+
+.footer-logos {
+  height: 80%;
+  display: flex;
   margin-top: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
-.footer-link{
-  margin: 20px;
-}
-
-.footer-link:hover{
+.footer-icon{
+  margin-inline: 10vh;
   width: 30px;
-  height: auto;
+  height: 30px;
+  transition: 0.2s ease;
+}
+
+.footer-icon:hover{
+  width: 40px;
+  height: 40px;
 }
 
 /* Index Page */
 
-.bio{
+.bio {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -50,11 +78,142 @@ body{
   align-items: center;
 }
 
-
-/* Education Page */
-
+.intro {
+  margin: 1vh;
+  padding: 5vh;
+}
 
 /* Experience Page */
 
+.exp-cards {
+  margin: 1vh;
+}
+
+.exp-card {
+  display: flex;
+}
+
+.logo-div {
+  margin: 20px;
+  width: 10%;
+  height: 100%;
+}
+
+.logo-img {
+  width: 100%;
+  height: 100%;
+}
+
+.details {
+  margin: 20px;
+  width: 90%;
+  height: 100%;
+}
+
+/* Education Page */
+
+.all-edu {
+  margin: 20px;
+}
+
+.edu-div {
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 5vh;
+  box-shadow: 10px 10px 20px rgb(0, 0, 0);
+  overflow: visible;
+}
+
+.logo-and-info {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.edu-logo-img {
+  width: 20vh;
+  height: 20vh;
+}
+
+.dropdown {
+  padding: 15px;
+}
+
+.dropdown button{
+  background-color: black;
+  padding: none;
+  transition: 0.7s ease;
+  border-radius: 10vh;
+}
+
+.dropdown button:hover, .dropdown button:active, .dropdown button:focus{
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-weight: bold;
+}
+
+.collapse-text{
+  margin-top: 10px;
+}
+
+.certifications {
+  margin-block: 10vh;
+}
 
 /* Projects Page */
+
+.all-projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block: 10vh;
+  margin-inline: 5vh;
+}
+
+.all-projects h1{
+  margin: 15vh;
+}
+
+.proj-div {
+  margin: 20px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2vh;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 5vh;
+  box-shadow: 10px 10px 20px rgb(0, 0, 0);
+}
+
+.proj-div img {
+  width: 50%;
+  height: 50%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.buttons{
+  display: flex;
+  width: 100%;
+  margin-top: 5vh;
+  justify-content: center;
+}
+
+.proj-button{
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin-inline: 10vh;
+  background-color: rgb(255, 255, 255);
+  transition: 0.5s ease;
+}
+
+.proj-button:hover{
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
