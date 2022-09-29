@@ -34,10 +34,7 @@ export default function Home() {
               {" "}
               Computerphile
             </a>
-            . However, having no background in finance, I sometimes find it
-            difficult to grasp certain financial concepts and therefore spend
-            quite some time familiarizing myself with the financial jargon as
-            well. Nowadays, I&apos;m reading{" "}
+            . I also spend a lot of my time learning finance, economics, and investing. Nowadays, I&apos;m reading{" "}
             <a
               rel="noopener noreferrer"
               href="https://en.wikipedia.org/wiki/The_Intelligent_Investor"
@@ -45,7 +42,7 @@ export default function Home() {
             >
               The Intelligent Investor
             </a>{" "}
-            , which is widely regarded as the best ever book on investing.
+            , which is widely regarded as the best ever book on investing. Next up on my list of books is <a rel="noopener noreferrer" target="_blank" href="https://www.amazon.com/Man-Who-Solved-Market-Revolution/dp/073521798X">The Man Who Solved the Market</a>, which is an account on Jim Simmons, the man who revolutionized Wall Street.
           </p>
           <p>
             I am experienced in AI and web development. I particularly enjoy finding patterns in the weirdest datasets and then making something on top of them. Currently, I&apos;m exploring Natural Language Processing and look forward to building something impactful using it. I also enjoy participating in hackathons and brainstorming new ideas. This is evident from the fact that I have managed to bag the top spot in the IEEE Blockchain Hackathon 2022 and 3rd spot in CodeIT Suisse 2022, the annual Credit Suisse Programming Challenge.
