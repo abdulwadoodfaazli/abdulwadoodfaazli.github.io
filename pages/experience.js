@@ -10,7 +10,7 @@ export default function Experience() {
   ];
 
   var sra = '"The HKU Department of Ophthalmology brings together renowned researchers and doctors from all across the globe to develop novel solutions to some of the most challenging problems in the field of eyecare."';
-  var sra_desc = ["Worked under Dr. Vincent Tam and Dr. Allie Lee to better understand the anatomy of the human eye and build advanced AI algorithms to improve the digital detection and diagnosis of eye diseases", "Developed and optimized an Android application for self-monitoring of various eye conditions (telemedicine)"];
+  var sra_desc = ["Worked under Dr. Vincent Tam and Dr. Allie Lee to better understand the anatomy of the human eye and build advanced AI algorithms to improve the digital detection and diagnosis of eye diseases", "Refactored and optimized an Android application for self-monitoring of various eye conditions (telemedicine)"];
 
   var weava =
     '"Weava is an online academic research tool that allows students, professors, and researchers to do their research more efficiently and collaboratively."';
@@ -48,7 +48,7 @@ export default function Experience() {
       />
 
       <ExpCard
-        company="The University of Hong Kong, Department of Ophtalmology"
+        company="The University of Hong Kong, Department of Ophthalmology"
         link="https://www.ophthalmology.hku.hk/"
         role="Student Research Assistant"
         dates="June 2022 - Sep 2022"
